@@ -1,0 +1,26 @@
+# Configuration for Zomato Restaurant Recommendation System
+
+dataset:
+  source: "ManikaSaini/zomato-restaurant-recommendation"
+  cache_dir: "data/raw"
+  processed_path: "data/processed/zomato_clean.csv"
+
+budget_thresholds:
+  low: 500
+  medium: 1500
+
+filtering:
+  max_candidates: 20
+  fuzzy_match_threshold: 80   # fuzzywuzzy score (0-100)
+
+llm:
+  provider: "groq"            # openai | groq | ollama
+  model: "llama-3.3-70b-versatile"
+  temperature: 0.7
+  max_tokens: 1024
+  api_key_env: "GROQ_API_KEY"
+
+ui:
+  top_n_results: 5
+  title: "Zomato AI Restaurant Recommender"
+  page_icon: "🍽️"

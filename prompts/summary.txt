@@ -1,0 +1,6 @@
+Based on the recommendations above, provide a brief summary (2-3 sentences) of:
+1. The overall dining options available for the user's preferences
+2. Any notable patterns or themes in the recommendations
+3. A helpful tip or suggestion for the user
+
+Keep it concise and actionable.

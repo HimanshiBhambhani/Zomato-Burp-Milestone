@@ -1,0 +1,92 @@
+name,cuisines,location,aggregate_rating,votes,average_cost_for_two,budget_category,image_url
+Dum Pukht,"North Indian, Awadhi",New Delhi,4.9,5000,4000,high,https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop
+Bukhara,"North Indian, Mughlai",New Delhi,4.8,4800,3800,high,https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop
+Indian Accent,"Modern Indian, Fusion",New Delhi,4.7,4500,3500,high,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop
+Wasabi by Morimoto,"Japanese, Sushi",New Delhi,4.6,3200,3200,high,https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400&h=300&fit=crop
+Moti Mahal,"North Indian, Mughlai",New Delhi,4.5,4000,800,medium,https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop
+Karim's,"Mughlai, North Indian",New Delhi,4.4,5500,600,medium,https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=400&h=300&fit=crop
+Saravana Bhavan,"South Indian, Vegetarian",New Delhi,4.3,3800,400,low,https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&h=300&fit=crop
+Cafe Lota,"Indian, Cafe",New Delhi,4.2,2500,500,medium,https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop
+Andhra Bhavan,"South Indian, Andhra",New Delhi,4.1,2200,350,low,https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop
+Rajinder Da Dhaba,"North Indian, Punjabi",New Delhi,4.0,3500,450,low,https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=400&h=300&fit=crop
+Tonino,"Italian, Pizza",New Delhi,4.5,2800,1800,high,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop
+Olive Bar & Kitchen,"Italian, Mediterranean",New Delhi,4.6,3200,2500,high,https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop
+Diva - The Italian Restaurant,"Italian, Continental",New Delhi,4.4,2600,2200,high,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop
+Pizza Express,"Italian, Pizza",New Delhi,4.0,1800,900,medium,https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop
+Jamie's Pizzeria,"Italian, Pizza",New Delhi,4.1,2100,1000,medium,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop
+Yum Yum Cha,"Chinese, Asian",New Delhi,4.3,2900,1200,medium,https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop
+China Kitchen,"Chinese, Szechuan",New Delhi,4.2,2400,1500,medium,https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&h=300&fit=crop
+Hakkasan,"Chinese, Cantonese",New Delhi,4.7,3600,3500,high,https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400&h=300&fit=crop
+The China Room,"Chinese, Pan-Asian",New Delhi,4.4,2700,2000,high,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&h=300&fit=crop
+Naivedyam,"South Indian, Vegetarian",New Delhi,4.3,3100,500,low,https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400&h=300&fit=crop
+Sagar Ratna,"South Indian, Vegetarian",New Delhi,3.9,2800,400,low,https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&h=300&fit=crop
+Thai High,"Thai, Asian",New Delhi,4.2,1900,1100,medium,https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=400&h=300&fit=crop
+Baan Thai,"Thai, Southeast Asian",New Delhi,4.5,2300,1800,high,https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400&h=300&fit=crop
+Nara Thai,"Thai, Asian",New Delhi,4.1,1700,900,medium,https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=400&h=300&fit=crop
+Taco Bell,"Mexican, Fast Food",New Delhi,3.8,2200,400,low,https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=300&fit=crop
+Sanchez,"Mexican, Tex-Mex",New Delhi,4.3,1900,1400,medium,https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400&h=300&fit=crop
+Chili's,"Mexican, American",New Delhi,4.0,2500,1200,medium,https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?w=400&h=300&fit=crop
+Le Cirque,"French, Continental",New Delhi,4.6,2100,3200,high,https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=400&h=300&fit=crop
+Threesixtyone,"Continental, European",New Delhi,4.5,2400,2800,high,https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=400&h=300&fit=crop
+Khan Chacha,"North Indian, Kebabs",New Delhi,4.1,4200,500,low,https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=400&h=300&fit=crop
+Bombay Canteen,"Modern Indian, Fusion",Mumbai,4.8,4200,2500,high,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=300&fit=crop
+Trishna,"Seafood, Coastal",Mumbai,4.7,3800,2200,high,https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop
+Bastian,"Seafood, European",Mumbai,4.6,3500,2800,high,https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop
+Peshawri,"North Indian, Mughlai",Mumbai,4.5,3000,3000,high,https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop
+Masala Library,"Modern Indian, Molecular",Mumbai,4.4,2800,2500,high,https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop
+Foo,"Chinese, Asian",Mumbai,4.5,2600,2000,high,https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop
+Yauatcha,"Chinese, Dim Sum",Mumbai,4.6,3100,2400,high,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&h=300&fit=crop
+Americano,"Italian, Continental",Mumbai,4.3,2200,1800,high,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop
+Celini,"Italian, Fine Dining",Mumbai,4.5,1900,3000,high,https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=300&fit=crop
+Pizza By The Bay,"Italian, Pizza",Mumbai,4.0,2800,800,medium,https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop
+Leopold Cafe,"Continental, Cafe",Mumbai,4.1,4500,700,medium,https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop
+The Table,"European, Continental",Mumbai,4.4,2300,2200,high,https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=400&h=300&fit=crop
+Thai Pavilion,"Thai, Southeast Asian",Mumbai,4.3,2000,1500,medium,https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=400&h=300&fit=crop
+Bandra Born,"Mexican, Tex-Mex",Mumbai,4.2,1700,1200,medium,https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400&h=300&fit=crop
+Sushi Samba,"Japanese, Sushi",Mumbai,4.4,2100,2200,high,https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400&h=300&fit=crop
+Swati Snacks,"Gujarati, Street Food",Mumbai,4.5,5200,500,low,https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=400&h=300&fit=crop
+Café Mysore,"South Indian, Vegetarian",Bangalore,4.3,2500,300,low,https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&h=300&fit=crop
+MTR,"South Indian, Vegetarian",Bangalore,4.5,3200,350,low,https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&h=300&fit=crop
+Truffles,"American, Continental",Bangalore,4.3,3800,600,medium,https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop
+Toit Brewpub,"Continental, Pub",Bangalore,4.2,4200,800,medium,https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=400&h=300&fit=crop
+Caperberry,"Italian, Mediterranean",Bangalore,4.4,2100,2000,high,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop
+Toscano,"Italian, Pizza",Bangalore,4.2,2800,1200,medium,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop
+Fava,"Italian, European",Bangalore,4.5,1900,2200,high,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop
+Szechuan Dragon,"Chinese, Szechuan",Bangalore,4.1,1800,700,medium,https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&h=300&fit=crop
+Mainland China,"Chinese, Pan-Asian",Bangalore,4.3,3000,1400,medium,https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop
+Ebony,"Continental, Fine Dining",Bangalore,4.6,2600,2500,high,https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=400&h=300&fit=crop
+The Fatty Bao,"Asian, Japanese",Bangalore,4.4,2300,1500,medium,https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=400&h=300&fit=crop
+Nagarjuna,"South Indian, Andhra",Bangalore,4.2,3500,400,low,https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop
+Vidyarthi Bhavan,"South Indian, Vegetarian",Bangalore,4.4,4100,200,low,https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400&h=300&fit=crop
+Meghana Foods,"Biryani, South Indian",Bangalore,4.3,5000,500,low,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop
+Biang!,"Chinese, Noodles",Bangalore,4.1,1600,800,medium,https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&h=300&fit=crop
+Peter Cat,"Continental, Indian",Kolkata,4.5,4800,700,medium,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop
+6 Ballygunge Place,"Bengali, Indian",Kolkata,4.4,3200,800,medium,https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop
+Arsalan,"Mughlai, Biryani",Kolkata,4.3,5500,600,medium,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop
+Oh! Calcutta,"Bengali, Indian",Kolkata,4.6,3000,1500,medium,https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop
+Mocambo,"Continental, European",Kolkata,4.2,3800,1000,medium,https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=400&h=300&fit=crop
+Flurys,"Bakery, Cafe",Kolkata,4.3,4200,500,low,https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=300&fit=crop
+Kewpie's Kitchen,"Bengali, Home Style",Kolkata,4.5,1800,900,medium,https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop
+Mainland China,"Chinese, Pan-Asian",Kolkata,4.1,2600,1200,medium,https://images.unsplash.com/photo-1563245372-f21724e3856d?w=400&h=300&fit=crop
+The Biker's Cafe,"Italian, Continental",Kolkata,4.0,1500,800,medium,https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop
+Dariole,"French, Bakery",Kolkata,4.4,1200,1400,medium,https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=400&h=300&fit=crop
+Paradise,"Biryani, Mughlai",Hyderabad,4.5,6000,500,low,https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop
+Bawarchi,"Biryani, North Indian",Hyderabad,4.3,5500,400,low,https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop
+Shah Ghouse,"Mughlai, Biryani",Hyderabad,4.4,4800,350,low,https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=400&h=300&fit=crop
+Tatva,"Italian, Continental",Hyderabad,4.2,1800,1500,medium,https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop
+Olive Bistro,"Italian, Mediterranean",Hyderabad,4.5,2200,2000,high,https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=300&fit=crop
+Jewel of Nizam,"Hyderabadi, Mughlai",Hyderabad,4.6,2800,2500,high,https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop
+AB's Absolute Barbecues,"BBQ, North Indian",Hyderabad,4.3,4200,1200,medium,https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop
+Chutneys,"South Indian, Vegetarian",Hyderabad,4.2,3500,400,low,https://images.unsplash.com/photo-1630383249896-424e482df921?w=400&h=300&fit=crop
+Ohri's,"Continental, Multi-cuisine",Hyderabad,4.1,3000,900,medium,https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=300&fit=crop
+Farzi Cafe,"Modern Indian, Molecular",Hyderabad,4.4,2100,1800,high,https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=400&h=300&fit=crop
+Dakshin,"South Indian, Chettinad",Chennai,4.5,2800,1800,high,https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=400&h=300&fit=crop
+Murugan Idli Shop,"South Indian, Vegetarian",Chennai,4.4,5200,300,low,https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=400&h=300&fit=crop
+Saravana Bhavan,"South Indian, Vegetarian",Chennai,4.3,6000,400,low,https://images.unsplash.com/photo-1567337710282-00832b415979?w=400&h=300&fit=crop
+Peshawri Chennai,"North Indian, Mughlai",Chennai,4.6,2400,3000,high,https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop
+Benjarong,"Thai, Southeast Asian",Chennai,4.4,1900,2200,high,https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=400&h=300&fit=crop
+Focaccia,"Italian, Pizza",Chennai,4.2,2100,1500,medium,https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400&h=300&fit=crop
+Tuscana Pizzeria,"Italian, Pizza",Chennai,4.3,2500,1000,medium,https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop
+Mainland China Chennai,"Chinese, Szechuan",Chennai,4.1,2800,1200,medium,https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=400&h=300&fit=crop
+Bay Leaf,"Chinese, Thai",Chennai,4.0,1700,800,medium,https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=400&h=300&fit=crop
+Junior Kuppanna,"South Indian, Chettinad",Chennai,4.2,3800,500,low,https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?w=400&h=300&fit=crop

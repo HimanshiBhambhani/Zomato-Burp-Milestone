@@ -1,0 +1,66 @@
+📎 REFERENCE IMAGE ATTACHED - Match this design exactly!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎨 COPY FROM REFERENCE IMAGE:
+
+1. COLORS:
+   • Dark navy/purple background: #2D2F5F
+   • Pink/magenta buttons: #D4619B (like "SIGN IN", "RESERVE")
+   • Light green badges: #A4D65E (like "New and Fresh")
+   • White text: #FFFFFF
+
+2. BUTTONS:
+   • Pill-shaped (border-radius: 28px)
+   • Pink gradient background
+   • White bold text
+
+3. TYPOGRAPHY:
+   • Bold uppercase headings (like "BEST WINE IN TOWN!")
+   • Clean sans-serif font (Inter or DM Sans)
+   • White on dark background
+
+4. ILLUSTRATIONS:
+   • Flat, geometric style (like the dining couple)
+   • Simple shapes, solid colors
+   • Hearts, stars, confetti decorations
+   • Food/dining theme
+
+5. LAYOUT:
+   • Illustration on LEFT
+   • Content on RIGHT
+   • Dark background throughout
+   • White cards for content
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🍽️ DESIGN THIS APPLICATION:
+
+Restaurant AI Recommendation App
+
+PAGES NEEDED:
+1. Landing page with hero (illustration + search)
+2. Results page (sidebar filters + restaurant cards)
+3. Mobile responsive layouts
+4. Loading state 
+5. Empty state with illustration
+
+KEY FEATURES:
+• Sidebar: Location, Budget, Cuisine, Rating filters
+• Restaurant cards: White cards on dark background
+  - Rank badge (🥇🥈🥉)
+  - Name, cuisine, stars, price
+  - "💡 AI Explanation" section
+• Pink primary buttons throughout
+• Playful flat illustrations
+• Dark mode aesthetic
+
+MOOD: Modern, friendly, sophisticated, approachable
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 DELIVERABLES:
+✓ All page mockups (desktop + mobile)
+✓ Color codes & typography specs
+✓ CSS for Streamlit
+✓ Illustration assets

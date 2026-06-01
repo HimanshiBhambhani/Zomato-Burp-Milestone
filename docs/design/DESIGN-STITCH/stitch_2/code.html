@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Indian Accent | DineWise AI</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "error-container": "#ffdad6",
+                    "on-error": "#ffffff",
+                    "on-secondary-container": "#6b4b00",
+                    "background": "#f8f9fa",
+                    "secondary-fixed-dim": "#ffba20",
+                    "primary-fixed-dim": "#ffb3b1",
+                    "on-tertiary": "#ffffff",
+                    "primary-fixed": "#ffdad8",
+                    "tertiary-fixed": "#e4e2e1",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#271900",
+                    "on-secondary-fixed-variant": "#5e4200",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-dim": "#d9dadb",
+                    "surface-container-low": "#f3f4f5",
+                    "on-background": "#191c1d",
+                    "on-surface-variant": "#5b403f",
+                    "outline-variant": "#e4bebc",
+                    "tertiary": "#5c5c5c",
+                    "primary-container": "#db313f",
+                    "primary": "#b7122a",
+                    "secondary-fixed": "#ffdea8",
+                    "inverse-primary": "#ffb3b1",
+                    "outline": "#8f6f6e",
+                    "tertiary-container": "#757474",
+                    "surface-tint": "#bb162c",
+                    "tertiary-fixed-dim": "#c8c6c6",
+                    "inverse-surface": "#2e3132",
+                    "inverse-on-surface": "#f0f1f2",
+                    "on-tertiary-container": "#fffcfb",
+                    "surface-container-highest": "#e1e3e4",
+                    "error": "#ba1a1a",
+                    "on-error-container": "#93000a",
+                    "on-surface": "#191c1d",
+                    "on-tertiary-fixed-variant": "#474747",
+                    "surface-bright": "#f8f9fa",
+                    "on-primary-fixed": "#410007",
+                    "surface": "#f8f9fa",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "secondary-container": "#feb700",
+                    "on-primary-fixed-variant": "#92001c",
+                    "secondary": "#7c5800",
+                    "surface-container-high": "#e7e8e9",
+                    "on-primary-container": "#fffbff",
+                    "on-secondary": "#ffffff",
+                    "surface-container": "#edeeef",
+                    "surface-variant": "#e1e3e4"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-desktop": "64px",
+                    "margin-mobile": "16px",
+                    "xs": "4px",
+                    "md": "16px",
+                    "xxl": "48px",
+                    "sm": "12px",
+                    "base": "8px",
+                    "gutter": "16px",
+                    "xl": "32px",
+                    "lg": "24px"
+            },
+            "fontFamily": {
+                    "headline-xl-mobile": ["Inter"],
+                    "body-lg": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "headline-sm": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "body-md": ["Inter"],
+                    "headline-md": ["Inter"],
+                    "headline-xl": ["Inter"],
+                    "label-lg": ["Inter"],
+                    "body-sm": ["Inter"],
+                    "label-md": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-xl-mobile": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-sm": ["10px", {"lineHeight": "12px", "fontWeight": "700"}],
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                    "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "label-lg": ["14px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-sm": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .ai-shimmer {
+            background: linear-gradient(90deg, rgba(254, 183, 0, 0) 0%, rgba(254, 183, 0, 0.1) 50%, rgba(254, 183, 0, 0) 100%);
+            background-size: 200% 100%;
+            animation: shimmer 3s infinite linear;
+        }
+        @keyframes shimmer {
+            from { background-position: 200% 0; }
+            to { background-position: -200% 0; }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md min-h-screen">
+<!-- Top Navigation Bar -->
+<nav class="bg-surface dark:bg-on-background text-primary dark:text-primary-fixed shadow-sm flex justify-between items-center px-margin-desktop h-16 w-full fixed top-0 z-50">
+<div class="flex items-center gap-xl">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed">DineWise AI</span>
+<div class="hidden md:flex gap-lg items-center">
+<a class="text-primary dark:text-primary-fixed border-b-2 border-primary dark:border-primary-fixed pb-1 font-label-lg text-label-lg transition-all duration-200 active:opacity-80" href="#">Discover</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-label-lg text-label-lg" href="#">Favorites</a>
+<a class="text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed transition-colors font-label-lg text-label-lg" href="#">History</a>
+</div>
+</div>
+<div class="flex items-center gap-md">
+<button class="p-xs transition-all duration-200 active:opacity-80"><span class="material-symbols-outlined" data-icon="notifications">notifications</span></button>
+<button class="p-xs transition-all duration-200 active:opacity-80"><span class="material-symbols-outlined" data-icon="settings">settings</span></button>
+<img alt="User profile" class="w-8 h-8 rounded-full object-cover ml-sm border border-outline-variant" data-alt="A professional studio portrait of a friendly-looking middle-aged man with a clean haircut, wearing a crisp white shirt against a neutral grey background. The lighting is soft and even, emphasizing a high-end corporate yet approachable aesthetic. The image follows a modern minimalist style with a focus on human connection and professional warmth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvZ0iSPLQWx4SWBZnGftC2EVVng-HhUJqMYvnvQ5YSHVfpSPVNdJVTvD5VGjkU7MEgv5Df0NjntYzpAwTa5lf1smot2X5vOsGBLl5CgAlEdJPxp4roG2hnhbx2YXJ5p-U13LAeNyu6y1QKUzOty9eCbM6TaUaCxW_kTzM4ZSkA9PN9ZLVG0L5uZf6wQx0zZl_0M4su7NksysZjUJIhVr6RHuvH0-mv--rgfk7PDWTGm0KgeMza_PzhqqbojlAd8No7RIxdzPUCxX0"/>
+</div>
+</nav>
+<!-- Side Navigation Bar (Hidden on mobile) -->
+<aside class="hidden md:flex flex-col p-md gap-base bg-surface-container-low dark:bg-surface-container-lowest fixed left-0 top-16 h-[calc(100vh-64px)] w-[350px] border-r border-outline-variant dark:border-outline">
+<div class="p-md">
+<div class="flex items-center gap-sm mb-xs">
+<div class="w-10 h-10 bg-secondary-container rounded-lg flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container" data-icon="smart_toy">smart_toy</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Smart Filters</h3>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Powered by DineWise AI</p>
+</div>
+</div>
+</div>
+<nav class="flex-1 space-y-1 px-sm">
+<button class="flex items-center gap-md w-full p-md text-on-surface-variant dark:text-surface-variant hover:bg-surface-container-high rounded-lg transition-colors font-label-lg text-label-lg">
+<span class="material-symbols-outlined" data-icon="location_on">location_on</span> Location
+            </button>
+<button class="flex items-center gap-md w-full p-md text-on-surface-variant dark:text-surface-variant hover:bg-surface-container-high rounded-lg transition-colors font-label-lg text-label-lg">
+<span class="material-symbols-outlined" data-icon="payments">payments</span> Budget
+            </button>
+<button class="flex items-center gap-md w-full p-md text-on-surface-variant dark:text-surface-variant hover:bg-surface-container-high rounded-lg transition-colors font-label-lg text-label-lg">
+<span class="material-symbols-outlined" data-icon="restaurant">restaurant</span> Cuisine
+            </button>
+<button class="flex items-center gap-md w-full p-md text-on-surface-variant dark:text-surface-variant hover:bg-surface-container-high rounded-lg transition-colors font-label-lg text-label-lg">
+<span class="material-symbols-outlined" data-icon="star">star</span> Rating
+            </button>
+<button class="flex items-center gap-md w-full p-md bg-secondary-container dark:bg-secondary text-on-secondary-container dark:text-on-secondary rounded-lg font-bold font-label-lg text-label-lg transition-transform active:scale-95">
+<span class="material-symbols-outlined" data-icon="tune">tune</span> Preferences
+            </button>
+</nav>
+<div class="mt-auto border-t border-outline-variant p-md">
+<button class="w-full bg-primary text-on-primary py-md px-lg rounded-xl font-headline-sm text-headline-sm hover:opacity-90 transition-all shadow-sm">Apply Recommendations</button>
+<div class="flex justify-between mt-md px-sm">
+<button class="flex items-center gap-xs text-body-sm font-body-sm text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="help">help</span> Help
+                </button>
+<button class="flex items-center gap-xs text-body-sm font-body-sm text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[18px]" data-icon="chat_bubble">chat_bubble</span> Feedback
+                </button>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="md:ml-[350px] pt-xxl pb-xxl px-margin-mobile md:px-margin-desktop min-h-screen flex items-center justify-center">
+<!-- Large Restaurant Card (The Core Component) -->
+<article class="bg-surface surface-container-lowest max-w-4xl w-full rounded-xl overflow-hidden shadow-sm border border-outline-variant hover:shadow-md transition-shadow duration-300">
+<!-- Hero Image -->
+<div class="relative h-[400px] w-full group overflow-hidden">
+<img alt="Indian Accent Interior" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A highly detailed close-up of a sophisticated fine dining restaurant interior. Elegant dark wooden tables are set with polished silverware and thin-stemmed wine glasses. The lighting is warm and amber-toned, creating a luxurious and intimate atmosphere. In the background, soft blurred architectural details suggest a modern Indian aesthetic with rich textures and clean lines. The overall mood is upscale, inviting, and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBQezVKn0HPB4xiykxEsCCIOw-hJuTTqF2D0s40kxIjXvBoqBYGtkZn_cZg-vMC42a924L5om3zSbQMMyposZXdk0sL8wXXwPNxOsl5_V9P5GCH4tAUig1u6Rl06PqT_aO8tGHbwe2KG3_RXpxGz_HbA9doUrXr9Zz19g5l1OH_qv2fTVY181ri3CcIPvgQS3ddmhOCNl4lKZzDFoHvfPVHKkI-pXmVFNeUqR7ApBJ-BF8xfyLbVcKgEbHKhvqFMOy4Dc9SFcty4U"/>
+<!-- Floating Badges -->
+<div class="absolute top-lg left-lg flex gap-base">
+<span class="bg-secondary-container text-on-secondary-container px-md py-xs rounded-full font-label-lg text-label-lg flex items-center gap-xs shadow-sm">
+                        🥇 #1
+                    </span>
+<span class="bg-surface/90 backdrop-blur-md text-on-surface px-md py-xs rounded-full font-label-lg text-label-lg flex items-center gap-xs shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span> 4.8
+                    </span>
+</div>
+<button class="absolute top-lg right-lg w-10 h-10 bg-surface/80 backdrop-blur-md rounded-full flex items-center justify-center text-primary hover:bg-surface transition-colors">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+</button>
+</div>
+<!-- Content Details -->
+<div class="p-xl space-y-lg">
+<div class="flex justify-between items-start">
+<div class="space-y-xs">
+<h1 class="font-headline-xl text-headline-xl text-on-surface">Indian Accent</h1>
+<div class="flex items-center gap-sm text-on-surface-variant font-body-md text-body-md">
+<span>Modern Indian</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span>₹5,000 for two</span>
+<span class="w-1 h-1 bg-outline-variant rounded-full"></span>
+<span class="flex items-center gap-xs"><span class="material-symbols-outlined text-[18px]" data-icon="location_on">location_on</span> Delhi</span>
+</div>
+</div>
+<div class="text-right">
+<span class="inline-block bg-primary-fixed text-on-primary-fixed px-sm py-xs rounded-lg font-label-sm text-label-sm uppercase tracking-wider mb-xs">Recommended</span>
+<div class="flex gap-xs justify-end">
+<span class="material-symbols-outlined text-secondary" data-icon="restaurant">restaurant</span>
+<span class="material-symbols-outlined text-secondary" data-icon="wine_bar">wine_bar</span>
+<span class="material-symbols-outlined text-secondary" data-icon="valet_parking">parking_valet</span>
+</div>
+</div>
+</div>
+<!-- AI Insights Section -->
+<section class="bg-surface-container-low dark:bg-surface-container-highest p-lg rounded-xl border border-secondary/20 relative overflow-hidden ai-shimmer">
+<div class="flex gap-md relative z-10">
+<div class="shrink-0">
+<span class="material-symbols-outlined text-secondary text-[28px]" data-icon="auto_awesome">auto_awesome</span>
+</div>
+<div class="space-y-base">
+<h3 class="font-label-lg text-label-lg text-secondary flex items-center gap-xs">
+                                AI INSIGHTS
+                            </h3>
+<p class="text-body-md text-on-surface leading-relaxed">
+                                Based on your love for innovative flavors, <span class="font-bold">Indian Accent</span> is a must-visit. Its unique take on traditional Indian dishes makes it a top choice for a sophisticated dining experience.
+                            </p>
+</div>
+</div>
+</section>
+<div class="flex flex-wrap gap-sm">
+<span class="bg-secondary-fixed-dim/20 text-on-secondary-fixed-variant px-md py-xs rounded-full font-label-md text-label-md">Perfect for Dates</span>
+<span class="bg-secondary-fixed-dim/20 text-on-secondary-fixed-variant px-md py-xs rounded-full font-label-md text-label-md">Culinary Excellence</span>
+<span class="bg-secondary-fixed-dim/20 text-on-secondary-fixed-variant px-md py-xs rounded-full font-label-md text-label-md">Iconic Recipes</span>
+</div>
+<!-- Action Buttons -->
+<footer class="pt-xl flex flex-col sm:flex-row items-center gap-lg border-t border-outline-variant">
+<button class="w-full sm:flex-1 h-12 bg-primary text-on-primary font-headline-sm rounded-lg hover:shadow-lg transition-all active:scale-[0.98] flex items-center justify-center gap-xs">
+                        Learn More <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
+</button>
+<button class="w-full sm:flex-1 h-12 border-2 border-primary text-primary font-headline-sm rounded-lg hover:bg-primary-fixed/30 transition-all active:scale-[0.98] flex items-center justify-center gap-xs">
+<span class="material-symbols-outlined" data-icon="directions">directions</span> Directions
+                    </button>
+<button class="w-full sm:w-auto px-xl h-12 text-primary font-headline-sm rounded-lg hover:bg-primary/10 transition-all active:scale-[0.98] flex items-center justify-center gap-xs">
+<span class="material-symbols-outlined" data-icon="bookmark">bookmark</span> Save
+                    </button>
+</footer>
+</div>
+</article>
+</main>
+<!-- Bottom Navigation Bar (Visible only on mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 right-0 h-16 bg-surface dark:bg-on-background flex justify-around items-center px-md z-50 shadow-[0_-2px_8px_rgba(0,0,0,0.05)]">
+<button class="flex flex-col items-center text-primary">
+<span class="material-symbols-outlined" data-icon="explore" style="font-variation-settings: 'FILL' 1;">explore</span>
+<span class="text-label-sm font-label-sm mt-xs">Discover</span>
+</button>
+<button class="flex flex-col items-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="favorite">favorite</span>
+<span class="text-label-sm font-label-sm mt-xs">Favorites</span>
+</button>
+<button class="flex flex-col items-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+<span class="text-label-sm font-label-sm mt-xs">History</span>
+</button>
+<button class="flex flex-col items-center text-on-surface-variant">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-label-sm font-label-sm mt-xs">Profile</span>
+</button>
+</nav>
+<script>
+        // Micro-interaction for the "Save" button
+        const saveBtn = document.querySelector('footer button:last-child');
+        let isSaved = false;
+        saveBtn.addEventListener('click', () => {
+            isSaved = !isSaved;
+            const icon = saveBtn.querySelector('.material-symbols-outlined');
+            icon.textContent = isSaved ? 'bookmark_added' : 'bookmark';
+            icon.style.fontVariationSettings = isSaved ? "'FILL' 1" : "'FILL' 0";
+            saveBtn.innerHTML = `<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' ${isSaved ? 1 : 0}">${isSaved ? 'bookmark_added' : 'bookmark'}</span> ${isSaved ? 'Saved' : 'Save'}`;
+        });
+
+        // Toggle mobile nav items active state
+        const navButtons = document.querySelectorAll('nav.md\\:hidden button');
+        navButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                navButtons.forEach(b => {
+                    b.classList.replace('text-primary', 'text-on-surface-variant');
+                    b.querySelector('.material-symbols-outlined').style.fontVariationSettings = "'FILL' 0";
+                });
+                btn.classList.replace('text-on-surface-variant', 'text-primary');
+                btn.querySelector('.material-symbols-outlined').style.fontVariationSettings = "'FILL' 1";
+            });
+        });
+    </script>
+</body></html>

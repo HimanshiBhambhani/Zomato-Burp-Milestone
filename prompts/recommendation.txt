@@ -1,0 +1,20 @@
+The user is looking for restaurants with these preferences:
+- Location: {location}
+- Budget: {budget}
+- Cuisine: {cuisine}
+- Minimum Rating: {min_rating}
+{additional_prefs_section}
+
+Here are the candidate restaurants that match the criteria:
+
+{restaurant_data_table}
+
+Please rank the top {top_n} restaurants from this list. For each restaurant, provide:
+
+1. **Restaurant Name**
+2. **Cuisine Type(s)**
+3. **Rating** (out of 5)
+4. **Estimated Cost for Two**
+5. **Why this is a great match**: Write 2-3 sentences explaining why this restaurant is recommended based on the user's preferences. Highlight what makes it special or why it stands out.
+
+Format your response clearly with each recommendation numbered and separated.

@@ -1,0 +1,118 @@
+🎨 DESIGN BRIEF: AI Restaurant Recommendation App
+
+📎 REFERENCE IMAGE ATTACHED - Please match this aesthetic exactly!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 EXTRACT FROM REFERENCE IMAGE:
+
+✅ Colors:
+   • Background: Dark navy/purple (#2D2F5F)
+   • Primary buttons: Pink/magenta (#D4619B) 
+   • Accent badges: Light green (#A4D65E)
+   • Text: Pure white (#FFFFFF)
+
+✅ Button Style:
+   • Pill-shaped with border-radius 24-32px
+   • Pink gradient for CTAs (like "SIGN IN", "RESERVE")
+   • White text, semi-bold
+
+✅ Typography:
+   • Bold, uppercase headings (like "BEST WINE IN TOWN!")
+   • Clean sans-serif (Inter, DM Sans, Plus Jakarta Sans)
+   • White text on dark backgrounds
+
+✅ Illustrations:
+   • Flat, geometric, minimalist characters
+   • Simple shapes, solid colors (teal, blue, coral, yellow)
+   • Playful elements: hearts ♥, stars ✨, confetti
+   • Food/dining themed
+
+✅ Layout:
+   • Top nav: white links + pink button (right)
+   • Hero: illustration LEFT, content RIGHT
+   • Pill-shaped input fields (white/light gray)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🍽️ APPLICATION REQUIREMENTS:
+
+Page 1: LANDING/HERO PAGE
+├─ Top navigation bar (dark background)
+├─ Large hero section:
+│  ├─ LEFT: Playful illustration (dining/food theme, flat style)
+│  └─ RIGHT: 
+│     ├─ Badge: "AI-Powered" (light green pill)
+│     ├─ Headline: "DISCOVER YOUR PERFECT RESTAURANT!" (bold, white, uppercase)
+│     ├─ Subtext: Brief description (white, regular)
+│     └─ Input + Button: Email/search bar + pink "FIND RESTAURANTS" button
+└─ Footer: Copyright text
+
+Page 2: RESULTS PAGE WITH SIDEBAR
+├─ Sidebar (slightly lighter purple than main bg):
+│  ├─ 📍 Location dropdown
+│  ├─ 💰 Budget selector (radio: Low/Medium/High)
+│  ├─ 🍽️ Cuisine text input
+│  ├─ ⭐ Rating slider (3.0 to 5.0)
+│  ├─ Additional preferences textarea
+│  └─ Pink pill button: "GET RECOMMENDATIONS"
+│
+└─ Main Content (dark background):
+   └─ Restaurant Cards (white/light cards with dark shadow):
+      ├─ 🥇 Rank badge (top-left)
+      ├─ Restaurant name (22-24px, bold, dark text)
+      ├─ Cuisine icons + text (gray)
+      ├─ ⭐⭐⭐⭐⭐ 4.5 (gold stars)
+      ├─ ₹1200 for two (cost indicator)
+      └─ 💡 AI Explanation box:
+         └─ Light background (lavender/pink tint)
+         └─ "Why this matches: [2-3 sentences]"
+
+Page 3: LOADING STATE
+├─ Dark background
+├─ Animated spinner (pink/green colors)
+├─ Text: "🔍 AI is analyzing restaurants..."
+└─ Skeleton cards (shimmer effect)
+
+Page 4: EMPTY STATE
+├─ Dark background
+├─ Sad/confused character illustration (flat style)
+├─ "No restaurants found" (white text)
+├─ Suggestion text (lighter gray)
+└─ Pink "Try Again" button
+
+Page 5: MOBILE RESPONSIVE
+├─ Vertical stack layout
+├─ Collapsible filter section
+├─ Full-width cards
+└─ Sticky bottom button (pink)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📦 DELIVERABLES NEEDED:
+
+✓ High-fidelity mockups (all 5 pages)
+✓ Mobile responsive versions
+✓ Color palette with hex codes
+✓ Typography specifications (fonts, sizes, weights)
+✓ Icon set (SVG preferred)
+✓ Illustration assets (flat style, food-themed)
+✓ Spacing/padding measurements
+✓ CSS stylesheet (for Streamlit integration)
+✓ Button & input field styles
+✓ Card component design specs
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎭 BRAND MOOD:
+Modern • Friendly • Sophisticated • Approachable • Fun • Dark Mode • Vibrant Accents
+
+💡 KEY PRINCIPLE:
+Match the warm, inviting, contemporary aesthetic of the reference image. 
+The design should make AI recommendations feel simple and delightful!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ TECHNICAL NOTE:
+Design must be compatible with Streamlit framework (Python web app).
+CSS should be exportable for st.markdown() injection.

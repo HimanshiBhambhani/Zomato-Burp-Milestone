@@ -1,0 +1,26 @@
+# Ignore everything not needed for the backend Docker build
+.venv/
+venv/
+env/
+frontend/
+notebooks/
+tests/
+scripts/
+docs/
+.git/
+.gitignore
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+.DS_Store
+.env
+.env.example
+node_modules/
+*.ipynb
+data/raw/
+DEPLOYMENT.md
+README.md
