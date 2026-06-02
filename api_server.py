@@ -133,9 +133,11 @@ def filter_restaurants(location: str, budget: str, cuisine: str, min_rating: flo
     return results
 
 
+orchestrator_error: Optional[str] = None
+
 @app.on_event("startup")
 async def startup():
-    global orchestrator
+    global orchestrator, orchestrator_error
     load_restaurant_data()
     try:
         orchestrator = RecommendationOrchestrator(config_path="config.yaml")
@@ -143,6 +145,7 @@ async def startup():
         logger.info("Orchestrator initialized successfully")
     except Exception as e:
         logger.error(f"Failed to initialize orchestrator: {e}")
+        orchestrator_error = str(e)
         orchestrator = None
 
 
@@ -151,6 +154,7 @@ async def health():
     return {
         "status": "ok",
         "orchestrator_ready": orchestrator is not None,
+        "orchestrator_error": orchestrator_error,
         "restaurants_loaded": restaurant_df is not None and len(restaurant_df) if restaurant_df is not None else 0
     }
 
